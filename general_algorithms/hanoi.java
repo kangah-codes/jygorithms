@@ -7,7 +7,7 @@ public class hanoi{
             System.out.println("Move disk 1 from " +  start + " to " + end); 
             return; 
         }
-        Hanoi(n-1, start, 6-start-end); 
+        Hanoi(n, start, 6-start-end); 
         System.out.println("Move disk " + n + " from " +  start + " to " + end); 
         Hanoi(n-1, 6-start-end, end); 
         steps++;
