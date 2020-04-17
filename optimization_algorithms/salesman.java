@@ -47,10 +47,6 @@ class Graph{
 	}
 
 	boolean trySwap(i){
-		if (euclid(perm[i])) < perm[(i+1)]{
-			return true;
-		}else{
-			return false;
-		}
+		return (euclid(perm[i]) < perm[(i+1)]);
 	}
 }
